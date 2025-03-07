@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+*{
+    text-align: center;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 20px;
+}
+
+.trait{
+    width: 140px;
+    height: 8px;
+    background-color: #E53F6F;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+header{
+    background-image: url("/images/img/planches.jpg");
+    height: 600px;
+}
+
+
+.nav_bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.nav_bar a{
+    color:#E53F6F;
+    font-size: 30px;
+
+    
+}
+
+.text_rose{
+
+    color: #E53F6F;
+    padding-bottom: 40px;
+    font-size: 20px;
+
+}
+
+footer{
+    background-image: url("/images/img/motif.jpg");
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+}
+.col-s {
+	width: 33%;
+}
+
+.col-m {
+	width: 48%;
+}
+
+.col-l {
+	width: 98%;
+}
+
+.border{
+border: 1px solid red;
+}
+i {
+    color:#E53F6F;
+    padding: 20px;
+}
+
+
+
+@media(0px <= width <= 430px){
+    .col-m, .col-s {
+		width: 98%;
+	}
+    main img{
+        width: 80%;
+        margin: 5%;
+    }
+    .licorne img{
+        width: 100%;
+    }
+    ul{
+        padding-left: 0%;
+    }
+}
+
+
